@@ -11,7 +11,7 @@ setuptools.setup(
     description="A implementation of asynchronous multiprocessing with progress logging.",
     long_description=long_description,
     long_description_content_type="text/markdown",
-    url="https://github.com/sarenehan/cache_to_disk",
+    url="https://github.com/sarenehan/parallel-transform",
     packages=setuptools.find_packages(),
     classifiers=(
         "Programming Language :: Python :: 3",
