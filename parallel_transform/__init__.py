@@ -12,6 +12,7 @@ class TransformFunc(object):
             return (idx, self.transform_func(row, *args))
         except Exception:
             self.log_func(traceback.format_exc())
+            return (idx, None)
 
 
 class Parallelizer(object):

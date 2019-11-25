@@ -5,7 +5,7 @@ with open("README.md", "r") as fh:
 
 setuptools.setup(
     name="parallel_transform",
-    version="0.0.1",
+    version="0.0.2",
     author="Stewart Renehan",
     author_email="sarenehan@gmail.com",
     description="A implementation of asynchronous multiprocessing with progress logging.",
