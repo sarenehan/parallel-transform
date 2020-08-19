@@ -43,7 +43,7 @@ class Parallelizer(object):
             callback=self.complete)
 
     def set_log_frequency(self):
-        frequency = int(len(self.list_to_transform) / 20)
+        frequency = max(int(len(self.list_to_transform) / 20), 1)
         self.log_frequency = (
             self.min_log_frequency if frequency > self.min_log_frequency
             else frequency
